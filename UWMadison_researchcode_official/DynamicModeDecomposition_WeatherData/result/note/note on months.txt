@@ -1,0 +1,12 @@
+january perform best with r = 86 for reconstruct error and forecast. replication too.
+February perform best at around r = 20 for reconstruct. forecast error a bit higher.
+March at r = 30. forecast error a bit lower. (interesting)
+april at r = 28. not bad, but not as precise. forecast error a lot higher (but like 0.1 to 1).
+May at r = 28. pretty good (around 0.2 - 1).
+June noticed a few good ones (r = 78 with less than 0.2 for both and r = 20 with less than 0.01). incredibly sensitive with high r (r = 80 has 100 fold error), low r less sensitive. low r is better.
+July if try high r = 90, yield some errors (negative error even). noticed that at r = 20, r = 60 have similar result of low error. with r = 1, error is also small. might be due to quite a constant trend in july.
+August has also low error at r = 1. error grows as r increase (r = 70 have error around 1000-3000 and r= 85 has inf error) 
+Sept r = 20 error is high (aroung 100 ans 400 resp). decrease with increase r, but r =50 and above has error. r = 40 ish is highest can go. migth want to explroe why. r = 4 has low error.
+October high error at r = 4 (low r). error at r = 20 is decent (around 4 and 10). r = 40 has highhhh error. probably increase until error occur.
+November r = 1 error low. error increase with increase r.
+Dec also r = 1 low. r = 40 is also surprisingly low (0.1 compared to 0.01 of 4 = 1). r = 75 only a bit higher. r = 90 has error 1e7.
